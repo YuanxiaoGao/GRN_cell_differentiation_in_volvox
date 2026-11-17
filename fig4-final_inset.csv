@@ -1,0 +1,29 @@
+﻿output,rank_by_ST,K parameter,role in ODE,S1,S1_95CI,ST,ST_95CI,exchangeable with
+S_th,1,K_SR,S->R gate,0.2228,0.0368,0.6299,0.0370,K_SL
+S_th,2,K_SL,S->L gate,0.2244,0.0338,0.6239,0.0326,K_SR
+S_th,3,K_RL,R -| L,0.0291,0.0174,0.1826,0.0119,K_LR
+S_th,4,K_LR,L -| R,0.0313,0.0167,0.1811,0.0104,K_RL
+S_th,5,K_R,R self-activation,-0.0003,0.0012,0.0008,0.0001,K_L
+S_th,6,K_L,L self-activation,0.0012,0.0013,0.0008,0.0000,K_R
+S_th,7,K_SH,S->H gate,0.0000,0.0000,0.0000,0.0000,-
+H peak/plateau,1,K_SH,S->H gate,0.9999,0.0391,0.9999,0.0309,-
+H peak/plateau,2,K_SR,S->R gate,0.0000,0.0000,0.0000,0.0000,K_SL
+H peak/plateau,3,K_SL,S->L gate,0.0000,0.0000,0.0000,0.0000,K_SR
+H peak/plateau,4,K_LR,L -| R,0.0000,0.0000,0.0000,0.0000,K_RL
+H peak/plateau,5,K_RL,R -| L,0.0000,0.0000,0.0000,0.0000,K_LR
+H peak/plateau,6,K_R,R self-activation,0.0000,0.0000,0.0000,0.0000,K_L
+H peak/plateau,7,K_L,L self-activation,-0.0000,0.0000,0.0000,0.0000,K_R
+log10(L_high/R_low),1,K_LR,L -| R,0.7963,0.0351,0.8310,0.0291,K_RL
+log10(L_high/R_low),2,K_SL,S->L gate,0.0646,0.0191,0.1659,0.0092,K_SR
+log10(L_high/R_low),3,K_SR,S->R gate,0.0393,0.0167,0.1419,0.0084,K_SL
+log10(L_high/R_low),4,K_RL,R -| L,-0.0068,0.0078,0.0384,0.0028,K_LR
+log10(L_high/R_low),5,K_L,L self-activation,0.0003,0.0013,0.0006,0.0001,K_R
+log10(L_high/R_low),6,K_R,R self-activation,-0.0004,0.0010,0.0005,0.0001,K_L
+log10(L_high/R_low),7,K_SH,S->H gate,0.0000,0.0000,0.0000,0.0000,-
+log10(R_high/R_low),1,K_RL,R -| L,0.7883,0.0301,0.8260,0.0277,K_LR
+log10(R_high/R_low),2,K_SR,S->R gate,0.0612,0.0163,0.1660,0.0098,K_SL
+log10(R_high/R_low),3,K_SL,S->L gate,0.0466,0.0169,0.1379,0.0071,K_SR
+log10(R_high/R_low),4,K_LR,L -| R,0.0006,0.0085,0.0386,0.0025,K_RL
+log10(R_high/R_low),5,K_R,R self-activation,0.0001,0.0011,0.0007,0.0001,K_L
+log10(R_high/R_low),6,K_L,L self-activation,-0.0002,0.0010,0.0005,0.0001,K_R
+log10(R_high/R_low),7,K_SH,S->H gate,0.0000,0.0000,0.0000,0.0000,-
